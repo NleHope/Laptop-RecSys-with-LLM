@@ -3,9 +3,9 @@ import psycopg2
 # Connection details
 conn = psycopg2.connect(
     host="localhost",       # or IP of your PostgreSQL server
-    database="canada", # name of your database
-    user="postgres",
-    password="0859275467",   # your PostgreSQL user
+    database="laptop_db", # name of your database
+    user="nghia",
+    password="12345",   # your PostgreSQL user
     port=5432               # default PostgreSQL port
 )
 
